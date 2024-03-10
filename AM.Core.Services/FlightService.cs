@@ -16,7 +16,7 @@ namespace AM.Core.Services
         {
             return (from flight in Flights
                     where (flight.Destination == destination)
-                    select flight.EstimatedDuration.ToTimeSpan().TotalMinutes)
+                    select flight.EstimatedDuration)
                     .Average();
         }
 

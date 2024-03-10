@@ -8,6 +8,7 @@ namespace Airport_Management
 {
     public class Passenger
     {
+        public int Id { get; set; }
         public DateTime BirthDate { get; set; }
         public String PassportNumber { get; set; }
         public String EmailAddress { get; set; }
