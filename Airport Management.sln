@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AM.Core.Domain", "Airport M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AM.UI.Console", "AM.UI.Console\AM.UI.Console.csproj", "{61FD6B1A-722D-4F9F-AC1F-897D3720AC1E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AM.Core.Services", "AM.Core.Services\AM.Core.Services.csproj", "{58C7B8F3-A9C8-4265-B045-A2477B7C7405}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{61FD6B1A-722D-4F9F-AC1F-897D3720AC1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61FD6B1A-722D-4F9F-AC1F-897D3720AC1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61FD6B1A-722D-4F9F-AC1F-897D3720AC1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58C7B8F3-A9C8-4265-B045-A2477B7C7405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58C7B8F3-A9C8-4265-B045-A2477B7C7405}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58C7B8F3-A9C8-4265-B045-A2477B7C7405}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58C7B8F3-A9C8-4265-B045-A2477B7C7405}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
